@@ -9,12 +9,12 @@ This lab implements key methods for processing experimental data based on the no
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/lab-experimental-data.git
+   git clone https://github.com/TRV37/lab_1_PED.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd lab-experimental-data
+   cd lab_1_PED
    ```
 
 3. Create and activate a virtual environment (`venv`):
