@@ -1,60 +1,63 @@
-# Лабораторная работа №1 по обработке экспериментальных данных
+## Experimental Data Processing Lab №1 (English)
 
-## Описание
-В данной лабораторной работе реализованы основные методы обработки экспериментальных данных на основе нормального распределения. Используются математические и статистические методы для анализа случайных величин, вычисления их характеристик, построения графиков и распределений.
+[Read this in Russian](README_ru.md)
 
-## Установка и настройка проекта
+## Description
+This lab implements key methods for processing experimental data based on the normal distribution. Mathematical and statistical techniques are used to analyze random variables, calculate their characteristics, and plot graphs and distributions.
 
-1. Клонируйте репозиторий с проектом:
+## Project Setup and Installation
+
+1. Clone the repository:
    ```bash
    git clone https://github.com/your-repo/lab-experimental-data.git
    ```
 
-2. Перейдите в директорию проекта:
+2. Navigate to the project directory:
    ```bash
    cd lab-experimental-data
    ```
 
-3. Создайте и активируйте виртуальное окружение (`venv`):
+3. Create and activate a virtual environment (`venv`):
 
-   - На Windows:
+   - On Windows:
      ```bash
      python -m venv venv
      venv\Scripts\activate
      ```
 
-   - На Linux/MacOS:
+   - On Linux/MacOS:
      ```bash
      python3 -m venv venv
      source venv/bin/activate
      ```
 
-4. Установите необходимые зависимости:
+4. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-## Запуск проекта
+## Running the Project
 
-1. Убедитесь, что виртуальное окружение активировано.
-2. Запустите основной файл проекта:
+1. Ensure that the virtual environment is activated.
+2. Run the main project file:
    ```bash
    python Main.py
    ```
 
-## Файлы
+## Files
 
-- `Main.py` — основной файл с кодом обработки данных и построения графиков.
-- `requirements.txt` — список зависимостей для работы проекта.
-- `.gitignore` — файл для исключения ненужных файлов из репозитория, включая `venv`.
+- `Main.py` — the main file containing data processing and graph plotting code.
+- `requirements.txt` — a list of dependencies required for the project.
+- `.gitignore` — a file to exclude unnecessary files from the repository, including `venv`.
 
-## Используемые библиотеки
+## Libraries Used
 
-Проект использует следующие основные библиотеки:
+The project uses the following key libraries:
 - `numpy`
 - `scipy`
 - `matplotlib`
 - `pandas`
 
-### Примечание
-Для работы с виртуальным окружением, всегда активируйте его перед запуском проекта.
+### Note
+Make sure to activate the virtual environment before running the project.
+
